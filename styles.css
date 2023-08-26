@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.holder {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+justify-content: space-between;
+	font-size: 50px;
+}
+.holder1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+justify-content: space-between;
+	font-size: 50px;
+}
+.holder2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+justify-content: space-between;
+	font-size: 50px;
+}
