@@ -14,7 +14,35 @@ justify-content: space-between;
 justify-content: space-between;
 	font-size: 50px;
 }
+.holder2 {.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to a new line if needed */
+}
+
+.holder,
+.holder1,
 .holder2 {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holder {
+  background-color: green;
+}
+
+.holder1 {
+  background-color: red;
+}
+
+.holder2 {
+  background-color: blue;
+}
+
   height: 100px;
   width: 100px;
   background-color: blue;
