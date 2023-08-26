@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; /* Allow items to wrap to a new line if needed */
+  flex-wrap:wrap; /* Allow items to wrap to a new line if needed */
 }
 
 .holder,
